@@ -3,7 +3,9 @@
 <h4>npm init -y</h4>
 <h4>npm i newman</h4>
 <h4>npm i newman-reporter-htmlextra</h4>
+<h4>npm install dotenv</h4>
 <h4>change package.json file test line to "test": "node report.js"</h4>
+<h4>create and paste your postman_key to .env file</h4>
 
 <h3>generate html file</h3>
 
