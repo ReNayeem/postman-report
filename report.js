@@ -5,13 +5,13 @@ const apiKey = process.env.POSTMAN_KEY;
 
 newman.run({
 
-    collection: 'https://api.postman.com/collections/20817222-ea9dca92-f63d-4988-96f6-0a194ddea3f5?access_key=' + apiKey,
+    collection: 'https://api.postman.com/collections/20817222-4fb48de4-e0d1-4681-9791-eefb2af682fe?access_key=' + apiKey,
 
     reporters: 'htmlextra',
     iterationCount: 1,
     reporter: {
         htmlextra: {
-            export: './Reports/report.html'
+            export: './Reports/report 2.html'
         }
     }
 }, function (err) {
