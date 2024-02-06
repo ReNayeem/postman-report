@@ -11,7 +11,7 @@ newman.run({
     iterationCount: 1,
     reporter: {
         htmlextra: {
-            export: './Reports/report 2.html'
+            export: './Reports/report 3.html'
         }
     }
 }, function (err) {
